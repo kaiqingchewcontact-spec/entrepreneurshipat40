@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Entrepreneurship at 40</title>
+<meta name="description" content="Essays, stories and practical guides for founders who started building after 40. Hosted by Tori Chew.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{--navy:#0b0f1a;--navy-mid:#131929;--navy-light:#1e2840;--gold:#c8943a;--gold-light:#e8b96a;--cream:#f9f5ec;--text-light:rgba(249,245,236,0.8);--text-muted:rgba(249,245,236,0.45);}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:var(--cream);overflow-x:hidden;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 3rem;background:rgba(11,15,26,0.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(200,148,58,0.15);}
+.nav-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;font-style:italic;color:var(--cream);text-decoration:none;}
+.nav-links{display:flex;gap:1.5rem;align-items:center;}
+.nav-links a{font-size:0.8rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--gold);}
+.nav-cta{background:var(--gold)!important;color:var(--navy)!important;padding:0.45rem 1.1rem;border-radius:100px;}
+.blog-index{padding:8rem 4rem 5rem;max-width:1100px;margin:0 auto;}
+h1{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,4vw,3.2rem);font-weight:900;color:var(--cream);margin-bottom:0.7rem;letter-spacing:-0.02em;}
+.sub{font-size:1rem;font-weight:300;color:var(--text-light);margin-bottom:3rem;}
+.posts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.post-card{background:var(--navy-light);border:1px solid rgba(200,148,58,0.1);border-radius:16px;padding:1.8rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s;}
+.post-card:hover{border-color:var(--gold);transform:translateY(-3px);}
+.pc-cat{font-size:0.68rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem;}
+.post-card h3{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--cream);line-height:1.4;margin-bottom:0.6rem;}
+.post-card p{font-size:0.82rem;font-weight:300;color:var(--text-light);line-height:1.6;}
+footer{background:var(--navy);border-top:1px solid rgba(200,148,58,0.12);padding:3rem 4rem 1.5rem;}
+@media(max-width:768px){nav{padding:1rem 1.5rem;}.nav-links{display:none;}.blog-index{padding:7rem 1.5rem 3rem;}.posts-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-logo">Entrepreneurship at 40</a>
+  <div class="nav-links">
+    <a href="../index.html#episodes">Episodes</a>
+    <a href="../index.html#about">About</a>
+    <a href="#">Blog</a>
+    <a href="../index.html#guest">Be a Guest</a>
+    <a href="https://open.spotify.com/show/4jJQg6SoU30cspH4O6QfHU" target="_blank" class="nav-cta">Listen on Spotify →</a>
+  </div>
+</nav>
+<div class="blog-index">
+  <h1>Essays on building after 40</h1>
+  <p class="sub">Practical guides, founder stories, and honest thinking for mid-life entrepreneurs.</p>
+  <div class="posts-grid">
+    <a href="why-starting-at-40-is-your-greatest-advantage.html" class="post-card"><div class="pc-cat">Mindset</div><h3>Why Starting at 40 Is Your Greatest Advantage</h3><p>The research is clear — founders over 40 build more successful businesses. Here's exactly why.</p></a>
+    <a href="how-i-built-7-apps-without-a-developer.html" class="post-card"><div class="pc-cat">Founder Story</div><h3>How I Built 7 Apps Without a Developer</h3><p>A behind-the-scenes look at building an entire product ecosystem with no-code tools.</p></a>
+    <a href="the-40-year-old-founders-guide-to-validation.html" class="post-card"><div class="pc-cat">Strategy</div><h3>The 40-Year-Old Founder's Guide to Validation</h3><p>A validation framework designed for experienced founders with real stakes.</p></a>
+    <a href="what-corporate-life-teaches-you-about-entrepreneurship.html" class="post-card"><div class="pc-cat">Career Transition</div><h3>What Corporate Life Teaches You About Entrepreneurship</h3><p>Two decades in the workforce isn't time lost — it's experience compounded.</p></a>
+    <a href="building-in-public-after-40-why-it-works.html" class="post-card"><div class="pc-cat">Growth</div><h3>Building in Public After 40: Why It Works</h3><p>Sharing your journey publicly is one of the most powerful audience-building strategies.</p></a>
+    <a href="from-side-hustle-to-main-income-a-realistic-timeline.html" class="post-card"><div class="pc-cat">Finance</div><h3>From Side Hustle to Main Income: A Realistic Timeline</h3><p>An honest look at what the transition actually takes — financially and emotionally.</p></a>
+    <a href="the-psychology-of-starting-over-at-midlife.html" class="post-card"><div class="pc-cat">Personal Growth</div><h3>The Psychology of Starting Over at Midlife</h3><p>The unique mental landscape of mid-life reinvention and how to navigate it.</p></a>
+    <a href="networking-after-40-how-to-build-your-founder-circle.html" class="post-card"><div class="pc-cat">Community</div><h3>Networking After 40: How to Build Your Founder Circle</h3><p>Your existing network is an asset. Here's how to leverage and expand it.</p></a>
+    <a href="how-to-find-your-first-10-customers-at-any-age.html" class="post-card"><div class="pc-cat">Sales</div><h3>How to Find Your First 10 Customers at Any Age</h3><p>The first ten customers are the hardest. Here's a proven approach that works.</p></a>
+    <a href="why-women-over-40-are-the-most-powerful-entrepreneurs.html" class="post-card"><div class="pc-cat">Women in Business</div><h3>Why Women Over 40 Are the Most Powerful Entrepreneurs</h3><p>The combination of experience, empathy, and clarity that women bring at midlife.</p></a>
+    <a href="the-no-code-revolution-and-why-it-changes-everything-for-late-starters.html" class="post-card"><div class="pc-cat">Tools & Tech</div><h3>The No-Code Revolution and Why It Changes Everything</h3><p>You no longer need a developer to build a product. Here's what's now possible.</p></a>
+    <a href="how-to-build-a-personal-brand-when-you-have-a-real-career-history.html" class="post-card"><div class="pc-cat">Branding</div><h3>How to Build a Personal Brand With a Real Career History</h3><p>Personal branding for people starting with two decades of experience to leverage.</p></a>
+    <a href="managing-fear-when-you-have-more-to-lose.html" class="post-card"><div class="pc-cat">Mindset</div><h3>Managing Fear When You Have More to Lose</h3><p>Starting a business at 40 means the stakes feel higher. Here's how to manage fear.</p></a>
+    <a href="the-family-conversation-talking-to-your-partner-about-entrepreneurship.html" class="post-card"><div class="pc-cat">Life & Business</div><h3>The Family Conversation: Talking to Your Partner</h3><p>One of the hardest conversations mid-life founders have is at home. Here's how.</p></a>
+    <a href="pricing-your-work-after-decades-of-being-underpaid.html" class="post-card"><div class="pc-cat">Finance</div><h3>Pricing Your Work After Decades of Being Underpaid</h3><p>Mid-life founders consistently undercharge. Here's a framework to fix that.</p></a>
+    <a href="how-to-launch-a-podcast-with-no-audience.html" class="post-card"><div class="pc-cat">Content & Media</div><h3>How to Launch a Podcast With No Audience</h3><p>The honest guide to starting a podcast from zero — what actually works.</p></a>
+    <a href="what-teaching-taught-me-about-building-products.html" class="post-card"><div class="pc-cat">Founder Story</div><h3>What Teaching Taught Me About Building Products</h3><p>The best product builders understand their users deeply — and teachers spend careers doing exactly that.</p></a>
+    <a href="the-40-year-old-solopreneur-building-a-7-figure-business-alone.html" class="post-card"><div class="pc-cat">Strategy</div><h3>The 40-Year-Old Solopreneur: Building a Real Business Alone</h3><p>You don't need a team to build something meaningful. Here's how solo founders do it.</p></a>
+    <a href="how-to-use-ai-to-compress-your-learning-curve.html" class="post-card"><div class="pc-cat">Tools & Tech</div><h3>How to Use AI to Compress Your Learning Curve</h3><p>AI tools let non-technical founders move at a pace that was impossible five years ago.</p></a>
+    <a href="your-first-90-days-as-a-40-something-founder.html" class="post-card"><div class="pc-cat">Getting Started</div><h3>Your First 90 Days as a 40-Something Founder</h3><p>A practical, no-nonsense 90-day framework for the mid-life founder just starting out.</p></a>
+  </div>
+</div>
+<footer>
+  <div style="display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;flex-wrap:wrap;gap:1rem;">
+    <p style="font-size:0.75rem;color:rgba(249,245,236,0.3);">© 2025 Entrepreneurship at 40 · Hosted by Tori Chew</p>
+    <a href="../index.html" style="font-size:0.75rem;color:rgba(200,148,58,0.6);text-decoration:none;">← Back to Podcast Home</a>
+  </div>
+</footer>
+</body>
+</html>
